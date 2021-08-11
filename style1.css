@@ -1,0 +1,170 @@
+*
+{
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+
+}
+
+.heading
+{
+    background-color:black;
+    overflow-y:hidden;
+}
+
+body h1
+{
+    text-align:center;
+    color:white;
+    font-size: 50px;
+    font-family: "Allerta Stencil";
+    
+
+
+
+}
+
+.material-icons
+{
+    color:rgb(99, 223, 240);
+    animation:glow 0.5s ease-in-out infinite alternate;
+    padding-left:100px;
+    position:relative;
+    top:65px;
+
+}
+
+@keyframes glow
+{
+    0%{
+        text-shadow:  0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+        0 0 50px rgb(99, 223, 240), 0 0 60px rgb(99, 223, 240), 0 0 70px rgb(99, 223, 240);
+    }
+    100% /*the glowing effect */
+    {
+     text-shadow: 0 0 20px #eeeeee, 0 0 30px rgb(99, 223, 240), 0 0 40px rgb(99, 223, 240), 0 0 50px rgb(99, 223, 240),
+     0 0 60px rgb(99, 223, 240), 0 0 70px rgb(99, 223, 240);
+    }
+
+}
+
+body{
+    background-image: url('background1.png');
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.body1 p
+{
+    margin-top:30px;
+    font-size:22px;
+    font-family:"Noto Serif";
+    padding:0px 25px;
+
+}
+
+.body1 img{
+    padding-left: 440px;
+    border-radius: 4px;
+}
+
+.gallery
+{
+    display: inline-block;
+}
+
+.col
+{
+    width:33.3%;
+    float:left;
+    animation: fade 15s;
+
+}
+
+@keyframes fade
+{
+    0%
+    {
+        opacity:0;
+    }
+    100%
+    {
+        opacity:1;
+    }
+}
+
+.btn
+{
+    text-align:center;
+    font-size:20px;
+    text-decoration: none;
+    background-color: azure;
+    color:#9554b3;
+    font-weight: bold;
+    padding:5px 10px;
+    border:white 2px border;
+    margin-left:550px;
+    border-radius:15%;
+}
+
+.sub
+{
+    font-family:"Allerta Stencil";
+    letter-spacing: 3px;
+    color:#9554b3;
+    font-size:30px;
+    padding-left:40px;
+
+}
+
+.icon img
+{
+    text-align:center;
+    height:100px;
+    width:80px;
+    margin-left:14%;
+    margin-right:auto;
+    display: block;
+
+}
+
+.icon .box
+{
+    border:2px outset block;
+    box-shadow:0px 0px 9px grey;
+}
+
+.flex-grid
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.column
+{
+    flex-basis:32%;
+    text-align:center;
+    background: linear-gradient(90deg, rgba(231,233,241,1) 0%, rgba(140,92,162,0.4) 84%);
+    border-radius:4px;
+    margin:6px;
+    margin-bottom:35px;
+    border:2px solid purple;
+}
+
+.column:hover
+{
+    border:3px solid lightseagreen;
+}
+
+.body1 a:hover{
+    font-size:25px;
+    color:steelblue;
+}
+.body1 a:visited{
+    color:teal;
+}
+
+

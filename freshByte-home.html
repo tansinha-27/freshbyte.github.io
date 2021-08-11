@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>FRESHBYTE</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width;initial-size=1.0">
+    <link rel="stylesheet" href="freshStyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta Stencil">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="home">
+        <div class="icons">
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            </div>
+        <h1 class="glow" id="homep"> FRESHBYTE</h1>
+        <h3><i>"Talked to the family when the WiFi went down.Seem like nice people."</i></h3>
+        <p id="type"></p>
+        <!---Code for typing effect-->
+        <script>
+            var i = 0;
+            var txt = 'A hfjg guide for freshers interested in Computer Science.';
+            var speed = 50;
+            
+            function typeWriter() {
+              if (i < txt.length) {
+                document.getElementById("type").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+              }
+            }
+            </script>
+            <script> typeWriter();</script>
+    <div class="menu">
+        <ul>
+            <li><a href="#homep"> HOME</a></li>
+            <li><a href="#aboutp"> ABOUT</a></li>
+            <li><a href="#explorep"> EXPLORE</a></li>
+            <li><a href="#faqp">FAQ'S</a></li>
+        </ul>
+    </div>
+</div>
+<div class="about">
+    <h1 id="aboutp">ABOUT</h1>
+    <p>
+    <br>Welcome! Congratulations on making it this far!<br>
+    We all know how important right guidance and resources are in giving us a headstart.
+    When we enter into a <br>field, a lot of us with no prior background, it does become
+    painful to know how to proceed and what to do.<br>This is where this site 
+    comes into play! With guides, information and basics to get started
+    and exploring, this<br> might help you to begin to understand the beautiful world
+    of bits, bytes and Computer Science in general.<br>
+    There is so much to do,infinite possibilities and it involves a perfect balance of
+    creativity and technology.<br>
+    So come on!Let's dive in!
+    <br>
+    <br><br><br><br><br><br>
+    </p>
+</div>
+<div class="container">
+    <h1 id="explorep">EXPLORE</h1>
+    <div class="quote" >
+        It's not that we use technology,we live technology.
+    </div>
+    <div class="scroll">
+        Scroll to know more!
+    </div>
+      
+<div class="tag1">
+    <img src="scopeCS.png" width="400" height="100">
+     <a href="scopeCS.html" target="_blank"> <div class="text1" > Scope Of Computer <br> Science</div> </a>
+</div>
+<div class="tag2">
+    <img src="domain.png" width="400" height="100">
+    <a href="domains.html" target="_blank"> <div class="text2" > Domains to <br> explore</div></a>
+</div>
+
+<div class="tag3">
+    <img src="languages.png" width="400" height="100">
+    <a href="Programming languages.html" target="_blank">  <div class="text3" > All about common <br> programming languages</div></a>
+</div>
+
+<div class="tag4">
+    <img src="terms.png" width="400" height="100">
+    <a href="jargon.html" target="_blank"> <div class="text4" > Terms you might <br> encounter</div> </a>
+</div>
+
+
+<div class="tag5">
+    <img src="link.png" width="400" height="100">
+     <a href="Links.html" style="text-decoration:none" target="_blank"> <div class="text5" > Links to useful <br> resources</div></a>
+</div>
+</div>
+<div div class="end">
+    <h1 id="faqp">FAQ'S</h1>
+    <br><br><br>
+    <!----Code for accordion 1-->
+    <button class="acc">Which language should I learn first?</button>
+    <div class="panel">
+     <p>  Language does not matter much, each one has it's own speciality and use.
+        But the logic implemented is very similar. So pick anything C/C++,
+        python or java , learn the basics and make mini projects. Just don't make the mistake of 
+        learning multiple languages at the same time. </p> 
+    </div>
+    
+        <button class="acc">Should I start with competitive programming<br>
+            or choose a domain?
+        </button>
+        <div class="panel">
+           <p> It purely depends on the person's interest.Competitive 
+            programming helps you in logic building and problem solving, while
+            domains help you to use different technologies and integrate them,
+            to make some really cool stuff! But I suggest that you start exploring different domains initially, so that you know where 
+            your interest lies.</p>
+        </div>
+        <button class="acc">Am I at loss if I did not have<br>
+            computer science in high school?
+        </button>
+        <div class="panel">
+          <p>  Not at all! There might be a very slight difference initially,
+            but you can easily catch up with consistency. It isn't as
+            tough as it seems, you just need to take the first step and start</p>. 
+        </div>
+        <button class="acc">Which is the best domain?</button>
+    <div class="panel">
+     <p> Each and every domain is amazing and has tons of 
+         opportunities. Totally depends on the individual's skillset.
+        AI, Machine Learning , AR/VR etc. have been quite in the news
+    recently and are being considered as the future. Web development and
+app development help you to make accessible softwares , and to use your creativity. There is tons to do! </p> 
+    </div>
+
+    <button class="acc">What if I do not get coding initially?</button>
+    <div class="panel">
+     <p> It is completely normal! The scope and opportunities in this 
+         field are infinite, and you can go for other job roles.Do try to
+        focus initially for some months, and if it does not feel like 
+    something you like to do, switch to other domains and excel in them. </p> 
+    </div>
+
+    <button class="acc">What should I cover by the end of first year?</button>
+    <div class="panel">
+     <p> Try to learn at least one language, get familiar with git/github,
+         make one or two projects and explore, explore and explore.
+         Also, have tons of fun and enjoy every step!
+     </p> 
+    </div>
+    <script>
+        var a = document.getElementsByClassName("acc");
+        var i;
+        
+        for (i = 0; i < a.length; i++) {
+          a[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+        </script>
+
+    
+            <ul id="squares">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+    </div>   
+
+
+</div>
+<br><br><br><br><br><br>
+<footer>
+    <p>Author:Tanishaa Sinha</p>
+    <p>Made using HTML, CSS & Javascript </p>
+    <a href="mailto:tanishaasinha27@gmail.com">tanishaasinha27@gmail</a>
+</footer>
+</body>
+</html>
