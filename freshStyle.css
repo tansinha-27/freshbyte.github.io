@@ -92,6 +92,7 @@ body{
     color:rgb(99, 223, 240);
     text-decoration:none;
     font-family:Montserrat;
+    width:25%;
 }
 
 
@@ -122,7 +123,7 @@ a:hover{
 .about{
     background-image:url('computer.png');
     background-repeat: no-repeat;
-    background-size:1580px 600px;
+    background-size:cover;
 }
 
 .about p
